@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.icon img {
+    height: 20px;
+    padding-top: 14px;
+}
+
+.icon {
+    display: flex;
+    padding-left: 95px;
+    background-color: black;
+}
+
+.icon .fa-phone-alt {
+    color: white;
+    padding-top: 18px;
+    cursor: default;
+}
+
+.icon p {
+    margin-left: 8px;
+    margin-top: 8px;
+    color: #fffef9;
+    padding-top: 10px;
+    font-family: sans-serif;
+    cursor: text;
+}
+
+.icon .gore {
+    padding-left: 290px;
+    padding-top: 8px;
+}
+
+.icon a {
+    color: #fffef9;
+    margin: 15px;
+}
+
+.icon .foot {
+    padding-left: 65px;
+}
+
+.icon .bono {
+    font-size: 10px;
+    margin-left: 95px;
+}
+
+.icon .variable {
+    border-bottom: 2px solid #fffef9;
+    margin-bottom: 5px;
+}
+
+.item ul {
+    list-style: none;
+    display: flex;
+}
+
+.item li {
+    transition: .2s linear;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.item .header {
+    margin-left: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.item .Catalog {
+    margin-left: 328px;
+}
+
+.item li:hover {
+    border-bottom: 0.5px solid #2c3a47;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.item .header:hover {
+    border-bottom: none;
+}
+
+.icon img:hover {
+    transition: .4s linear;
+    transform: rotateZ(22deg);
+}
+
+.icon .bono:hover {
+    transform: scale(.8);
+}
+
+.classer {
+    background-color: #303952;
+    width: 100%;
+    height: 650px;
+    background-image: url(https://flatuicolors.com/static/img/stars-opacity.0979c1.svg);
+}
+
+.classer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .hero {
+    color: #fffef9;
+    text-decoration: none;
+    border: 1px solid #fa8231;
+    background: #fa8231;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer p {
+    color: #fffef9;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .hero:hover {
+    background: #fd9644;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.pricing-1,
+.pricing-2,
+.pricing-3 {
+    background-color: #f1f1f1;
+    width: 15em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 25px;
+    border-radius: 0.3em;
+    height: 25em;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pricing-1 button,
+.pricing-2 button,
+.pricing-3 button {
+    background: #fa8231;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0.8em;
+    cursor: pointer;
+    border: 1px solid #fa8231;
+    font-family: sans-serif;
+    color: #fffef9;
+    font-weight: bold;
+}
+
+.flexContainer img {
+    height: 200px;
+    padding-top: 20px;
+}
+
+.flexContainer img:hover {
+    cursor: pointer;
+}
+
+.pricing-1 button:hover,
+.pricing-2 button:hover,
+.pricing-3 button:hover {
+    background: #fd9644;
+}
+
+.flexContainer .h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.flexContainer img:hover {
+    transition: .9s linear;
+    transform: scale(.8);
+}
+
+.flexContainer .h2 {
+    font-weight: bold
+}
+
+.pricing-4 button,
+.pricing-5 button,
+.pricing-6 button {
+    background: #fa8231;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0.8em;
+    cursor: pointer;
+    border: 1px solid #fa8231;
+    font-family: sans-serif;
+    color: #fffef9;
+    font-weight: bold;
+}
+
+.pricing-4,
+.pricing-5,
+.pricing-6 {
+    background-color: #f1f1f1;
+    width: 15em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 25px;
+    border-radius: 0.3em;
+    height: 25em;
+}
+
+.anything {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.pricing-4 button:hover,
+.pricing-5 button:hover,
+.pricing-6 button:hover {
+    background: #fd9644;
+}
+
+.anything img {
+    padding-top: 20px;
+    height: 202px;
+}
+
+.pricing-7,
+.pricing-8,
+.pricing-9 {
+    background-color: #f1f1f1;
+    width: 15em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 25px;
+    border-radius: 0.3em;
+    height: 25em;
+}
+
+.nowhere {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.pricing-7 button:hover,
+.pricing-8 button:hover,
+.pricing-9 button:hover {
+    background: #fd9644;
+}
+
+.pricing-7 button,
+.pricing-8 button,
+.pricing-9 button {
+    background: #fa8231;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0.8em;
+    cursor: pointer;
+    border: 1px solid #fa8231;
+    font-family: sans-serif;
+    color: #fffef9;
+    font-weight: bold;
+}
+
+.nowhere img {
+    padding-top: 20px;
+    height: 202px;
+}
+
+.all li::selection {
+    color: #63ace5;
+}
